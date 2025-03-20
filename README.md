@@ -1,8 +1,8 @@
-# Módulo 38 - Projeto 04 -  Credit Scoring para Cartão de Crédito
+# Módulo 38 - Credit Scoring para Cartão de Crédito
 
 [Projeto04_streamlit.mov.webm.webm](https://github.com/user-attachments/assets/6e306288-2402-47ac-a09b-e0d12b19571b)
 
-Este projeto tem como objetivo desenvolver um modelo de **credit scoring** para avaliação de risco na concessão de cartões de crédito. Utilizamos a biblioteca **PyCaret** para automatizar o processo de machine learning, empregando o algoritmo **LightGBM** para gerar um pipeline eficiente.
+Este projeto tem como objetivo desenvolver um modelo de credit scoring para avaliar o risco na concessão de cartões de crédito. Para isso, utilizamos a biblioteca PyCaret para automatizar o fluxo de machine learning, implementando o algoritmo LightGBM para criar um pipeline robusto e eficiente.
 
 ## Fluxo de Trabalho
 
@@ -12,24 +12,9 @@ Este projeto tem como objetivo desenvolver um modelo de **credit scoring** para 
    - `prediction_label`: Previsão binária (0 para baixo risco, 1 para alto risco).
    - `prediction_score`: Probabilidade associada à previsão, expressando a confiança da previsão.
 
-## Conteúdo
+## Bibliotecas usadas no projeto
 
-- `Mod38 - Projeto 04.ipynb`: Notebook com o código principal e explicações do processo de construção do modelo.
-- ``app_pycaret.py``: Este arquivo contém o código para criar o aplicativo Streamlit com o deploy do projeto.
-- `model_final.pkl`: Pipeline do modelo LightGBM treinado gerado pelo Pycaret.
-- `model_regressao_logistica.pkl`: Pipeline do modelo de regressão logística treinado gerado pela biblioteca Joblib.
-- ``sklearn.pipeline.pkl``: Pipeline do modelo de regressão logística treinado gerado pela biblioteca Pickle.
-- `logs.log`: Arquivo de log com registros das etapas de execução do pipeline.
-- `credit_scoring.zip`: Arquivo compactado contendo a base de dados original.
-- `sample_credit_scoring.ftr`: Base de dados reduzida, contendo 100.000 registros utilizados para simulações.
-- `requirements.txt`: Arquivo de texto contendo todas as bibliotecas que o projeto necessita para funcionar corretamente.
-- `Projeto04_streamlit.mov.webm.webm`: Este vídeo apresenta o deploy criado com o aplicativo Streamlit.
-
-Este repositório foi criado como parte do projeto 04 realizado no Módulo 38, com o objetivo de consolidar o aprendizado e fornecer um recurso para referência futura.
-
-## Referências
-
-Para mais informações sobre como utilizar as ferramentas e técnicas abordadas neste módulo, consulte a documentação oficial das seguintes bibliotecas:
+Para mais informações a seguir:
 
 - [Pandas](https://pandas.pydata.org/docs/)
 - [Warnings](https://docs.python.org/3/library/warnings.html)
