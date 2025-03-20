@@ -11,16 +11,3 @@ Este projeto tem como objetivo desenvolver um modelo de credit scoring para aval
 3. **Geração de Resultados**: Após o processamento, um arquivo **Excel** é gerado com duas colunas adicionais:
    - `prediction_label`: Previsão binária (0 para baixo risco, 1 para alto risco).
    - `prediction_score`: Probabilidade associada à previsão, expressando a confiança da previsão.
-
-## Bibliotecas usadas no projeto
-
-Para mais informações a seguir:
-
-- [Pandas](https://pandas.pydata.org/docs/)
-- [Warnings](https://docs.python.org/3/library/warnings.html)
-- [Scikit-learn](https://scikit-learn.org/stable/)
-- [Pycaret](https://pycaret.gitbook.io/docs)
-- [Streamlit](https://docs.streamlit.io/)
-- [io](https://docs.python.org/3/library/io.html)
-- [Pickle](https://docs.python.org/3/library/pickle.html)
-- [Joblib](https://joblib.readthedocs.io/en/stable/)
